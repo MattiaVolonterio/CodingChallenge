@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./MaterialeEsercizioLim/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 100px;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+    color: #00ff00;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header > img{
+    width: 300px;
+}
+
+nav{
+    text-align: center;
+    background-color: #00ff00;
+    padding: 15px;
+}
+
+.monopattino *{
+    margin: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.monopattino > h2{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.carica{
+    height: 35px;
+    border-radius: 5px;
+}
+
+.medium{
+    width: 40%;
+    background-color: orange;
+}
+
+.full{
+    width: 70%;
+    background-color: green;
+}
+
+.low{
+    width: 20%;
+    background-color: red;
+}
